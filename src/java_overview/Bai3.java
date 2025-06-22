@@ -15,13 +15,13 @@ public class Bai3 {
         String tenSanPham= scanner.nextLine();
 
         System.out.println("Nhap so luong: ");
-        double soluong = scanner.nextDouble();
+        double soLuong = scanner.nextDouble();
 
         System.out.println("Nhap vao gia: ");
-        double dongia = scanner.nextDouble();
+        double donGia = scanner.nextDouble();
 
         System.out.println("Ten sam pham: " + tenSanPham);
-        System.out.println("Thanh tien: " + (soluong * dongia));
-        System.out.println("Thue: " + (soluong * dongia * 0.1));
+        System.out.println("Thanh tien: " + (soLuong * donGia));
+        System.out.println("Thue: " + (soLuong * donGia * 0.1));
     }
 }

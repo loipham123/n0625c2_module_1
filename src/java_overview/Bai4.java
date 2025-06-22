@@ -2,6 +2,9 @@ package java_overview;
 
 import java.util.Scanner;
 
+/**
+ * Nhập điểm thi và hệ số 3 môn Toán, Lý, Hóa của một học sinh. Tính điểm trung bình của học sinh đó.
+ */
 public class Bai4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
