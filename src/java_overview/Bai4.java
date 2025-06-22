@@ -6,22 +6,22 @@ public class Bai4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Nhap vao diem Toan: ");
+        System.out.print("Nhap vao diem Toan: ");
         double diemToan = sc.nextDouble();
         System.out.print("Nhap he so  Toan: ");
         double hsToan= sc.nextDouble();
 
-        System.out.println("Nhap vao diem Ly: ");
+        System.out.print("Nhap vao diem Ly: ");
         double diemLy = sc.nextDouble();
         System.out.print("Nhap he so  Ly: ");
         double hsLy= sc.nextDouble();
 
-        System.out.println("Nhap vao diem Hoa: ");
+        System.out.print("Nhap vao diem Hoa: ");
         double diemHoa = sc.nextDouble();
         System.out.print("Nhap he so  Hoa: ");
         double hsHoa= sc.nextDouble();
 
         double diemTB=(diemToan*hsToan+diemLy*hsLy+diemHoa*hsHoa)/(hsToan+hsLy+hsHoa);
-        System.out.println("Diem trung binh cua ban la: " + diemTB);
+        System.out.print("Diem trung binh cua ban la: " + diemTB);
     }
 }
