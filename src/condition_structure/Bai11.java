@@ -2,6 +2,10 @@ package condition_structure;
 
 import java.util.Scanner;
 
+/**
+ * Nhập vào thông tin 1 ngày (ngày - tháng - năm). Kiểm tra ngày có hợp lệ hay không ?
+ * Nếu hợp lệ hãy tìm ra ngày kế tiếp (ngày - tháng - năm) & ngày trước đó (ngày - tháng - năm).
+ */
 public class Bai11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -54,8 +58,7 @@ public class Bai11 {
 
         nextDay++;
 
-        if (nextDay > 31 || (month == 2 && nextDay > (isLeapYear ? 29 : 28)) || ((month == 4 || month == 6 || month == 9 || month == 11)
-                && nextDay > 30)) {
+        if (nextDay > 31 || (month == 2 && nextDay > (isLeapYear ? 29 : 28)) || ((month == 4 || month == 6 || month == 9 || month == 11) && nextDay > 30)) {
             nextDay = 1;
             nextMonth++;
         }
