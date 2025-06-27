@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 import static java.lang.Math.sqrt;
 
+/**
+ * Giải phương trình bậc 2 có dạng: a𝑥2 + bx + c = 0.
+ */
 public class Bai6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
