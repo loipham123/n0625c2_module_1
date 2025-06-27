@@ -10,15 +10,15 @@ public class Bai11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Nhap ngay: ");
+        System.out.print("Nhap ngay: ");
         int day = sc.nextInt();
 
         if (day < 1 || day > 31) {
-            System.out.println("Ngay khong hop le");
+            System.out.print("Ngay khong hop le");
             return;
         }
 
-        System.out.println("Nhap thang: ");
+        System.out.print("Nhap thang: ");
         int month = sc.nextInt();
 
         if (month < 1 || month > 12) {
@@ -33,7 +33,7 @@ public class Bai11 {
             }
         }
 
-        System.out.println("Nhap nam: ");
+        System.out.print("Nhap nam: ");
         int year = sc.nextInt();
 
         boolean isLeapYear = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
