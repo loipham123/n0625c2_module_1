@@ -13,7 +13,7 @@ public class Bai9 {
         System.out.println("Nhap vao ky tu: ");
         char kyTu = sc.next().charAt(0);
 
-        if ((kyTu >= 'A' && kyTu <= 'z') || (kyTu >= 'a' && kyTu <= 'z')) {
+        if ((kyTu >= 'A' && kyTu <= 'Z') || (kyTu >= 'a' && kyTu <= 'z')) {
             if (kyTu >= 'a' && kyTu <= 'z') {
                 kyTu -= 32;
             } else {
