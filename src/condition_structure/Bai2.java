@@ -15,7 +15,7 @@ public class Bai2 {
         int so = sc.nextInt();
 
         if (so < 0 || so > 10) {
-            System.out.println("so khong hop le");
+            System.out.println("So khong hop le");
         }
           else if (so == 1) {
                 System.out.println("One");
