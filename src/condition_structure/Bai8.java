@@ -10,12 +10,12 @@ public class Bai8 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Nhap thang: ");
-        int month= sc.nextInt();
+        int month = sc.nextInt();
         System.out.print("Nhap nam: ");
-        int year=sc.nextInt();
+        int year = sc.nextInt();
         int dayInMonth;
 
-        switch (month){
+        switch (month) {
             case 4:
             case 6:
             case 9:
@@ -23,17 +23,17 @@ public class Bai8 {
                 dayInMonth = 30;
                 break;
             case 2:
-                if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)){
+                if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
                     dayInMonth = 29;
-            }else{
+                } else {
                     dayInMonth = 28;
-            }
+                }
                 break;
             default:
-                dayInMonth=31;
+                dayInMonth = 31;
                 break;
         }
-        System.out.printf("So ngay trong thang %d cua nam %d la ngay %d",month,year,dayInMonth);
+        System.out.printf("So ngay trong thang %d cua nam %d la ngay %d", month, year, dayInMonth);
 
     }
 }

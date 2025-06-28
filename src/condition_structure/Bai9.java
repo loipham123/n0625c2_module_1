@@ -13,17 +13,16 @@ public class Bai9 {
         System.out.println("Nhap vao ky tu: ");
         char kyTu = sc.next().charAt(0);
 
-        if ((kyTu >= 'A' && kyTu <= 'z') || (kyTu >= 'a' && kyTu <= 'z')){
-            if(kyTu >= 'a' && kyTu <= 'z'){
-                kyTu -=32;
-            }else{
-                kyTu +=32;
+        if ((kyTu >= 'A' && kyTu <= 'z') || (kyTu >= 'a' && kyTu <= 'z')) {
+            if (kyTu >= 'a' && kyTu <= 'z') {
+                kyTu -= 32;
+            } else {
+                kyTu += 32;
             }
-            System.out.println("Ky tu sau khi chuyen doi: "+kyTu);
-        }else{
+            System.out.println("Ky tu sau khi chuyen doi: " + kyTu);
+        } else {
             System.out.println("Sai ky tu!!");
         }
-
 
 
     }
