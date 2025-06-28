@@ -10,9 +10,9 @@ public class Bai5 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Nhap a: ");
-        int a = sc.nextInt();
+        double a = sc.nextDouble();
         System.out.println("Nhap b: ");
-        int b = sc.nextInt();
+        double b = sc.nextDouble();
 
         if (a == 0) {
             if (b == 0) {
