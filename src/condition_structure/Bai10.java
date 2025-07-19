@@ -11,7 +11,7 @@ public class Bai10 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Nhap x: ");
-        double x = sc.nextDouble();
+        int x = sc.nextInt();
 
         double squareRoot = Math.sqrt(x);
 

@@ -78,8 +78,8 @@ public class Bai11 {
         previousDay--;
 
         if (previousDay < 1) {
-            previousDay--;
-            if (previousDay < 1) {
+            previousMonth--;
+            if (previousMonth < 1) {
                 previousMonth = 12;
                 previousYear--;
             }

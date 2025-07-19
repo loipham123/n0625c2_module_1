@@ -23,7 +23,5 @@ public class Bai9 {
         } else {
             System.out.println("Sai ky tu!!");
         }
-
-
     }
 }
